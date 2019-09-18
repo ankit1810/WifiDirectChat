@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/receiveTextId"
+            android:background="@drawable/chatlay"
+            android:textSize="25dp"
+            android:minWidth="60dp"
+            android:layout_toRightOf="@+id/im"
+            android:maxWidth="250dp"
+            android:padding="6dp"
+            android:text="Could not recieve"
+            android:textColor="#000000"/>
+</RelativeLayout>
